@@ -1,0 +1,39 @@
+.Button{
+    background: #003366;
+    padding: 15px;
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+    border-radius: 16px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.Button:hover{
+    box-shadow: 0px 0px 20px 0px #001a33;
+    transition: 0.5s;
+}
+
+.ButtonReverse{
+    background: #ffffff;
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 16px;
+    color: #003366;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.ButtonReverse:hover{
+    background: #003366;
+    color: white;
+    box-shadow: 0px 0px 20px 0px #001a33;
+    transition: 0.5s;
+}

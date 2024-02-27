@@ -1,0 +1,32 @@
+.Result {
+    background: #0066cc26;
+    width: 70%;
+    height: 500px;
+    border-radius: 16px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.Body{
+    width: 100%;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    height: 80%;
+}
+
+.Entry{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    box-sizing: border-box;
+    transition: 0.3s;
+    border-radius: 16px;
+}
+
+.Entry:hover{
+    background: #003366;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}

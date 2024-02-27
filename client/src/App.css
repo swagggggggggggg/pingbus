@@ -1,0 +1,21 @@
+html, body, #root {
+    height: 100%;
+}
+
+.App{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper{
+    width: 50%;
+}
+
+.body{
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}

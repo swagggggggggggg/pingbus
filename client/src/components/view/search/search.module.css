@@ -1,0 +1,29 @@
+.Search {
+    background: #0066cc26;
+    width: 30%;
+    height: 500px;
+    border-radius: 16px;
+    box-sizing: border-box;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Search div {
+    box-sizing: border-box;
+}
+
+.ButtonsBlock{
+    display: flex;
+    width: 100%;
+    gap: 15px;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.Buttons{
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
